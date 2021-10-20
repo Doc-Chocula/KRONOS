@@ -1,0 +1,87 @@
+/* div{
+  border: 2px white solid;
+} */
+
+body {
+  background-color: black;
+  width:100%;
+  height:100%;
+}
+
+.clearfix {
+  height:0px;
+  clear: both;
+}
+
+
+#main {
+  overflow: scroll;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  /* margin-right:auto; */
+
+}
+
+#title {
+  color:white;
+  text-align: center;
+  font-size: 70px;
+  /* width: 100%; */
+  width: 90%;
+  margin: auto;
+}
+
+#Kronos1 {
+  width: 40%;
+  /* margin-left: 100px; */
+  /* margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto; */
+  /* margin: auto; */
+  float: left;
+  padding-top: 40px;
+  padding-left: 50px;
+
+}
+
+#Kronos2 {
+  width: 40%;
+  /* margin-right: 300px;
+  margin-left:30px; */
+  /* margin-top: auto; */
+  /* position: absolute; */
+  /* margin-bottom: auto; */
+    /* margin: auto; */
+  float: right;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+#Kronos3 {
+  width: 40%;
+  float: left;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+#Kronos4 {
+  width: 40%;
+  float: right;
+  padding-top: 80px;
+  padding-right: 50px;
+}
+
+#poem {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#name {
+  color: white;
+}
